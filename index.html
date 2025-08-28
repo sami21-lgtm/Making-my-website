@@ -4,92 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Creative Website</title>
-  <style>
-    /* Reset */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background: #f4f4f4;
-      color: #333;
-    }
-
-    header {
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-    }
-
-    nav {
-      background: #222;
-      display: flex;
-      justify-content: center;
-      padding: 1rem;
-    }
-
-    nav a {
-      color: white;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #2575fc;
-    }
-
-    section {
-      padding: 3rem;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .about, .projects, .contact {
-      margin-bottom: 3rem;
-    }
-
-    .projects-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-    }
-
-    footer {
-      background: #222;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Hi, I'm [Your Name]</h1>
-    <p>Welcome to my creative space 🚀</p>
+    <div class="overlay"></div>
+    <div class="header-content">
+      <!-- Optional circular profile photo -->
+      <img src="myphoto.jpg" alt="My Profile Photo" class="profile-pic">
+
+      <h1>Hi, I'm [Your Name]</h1>
+      <p>Welcome to my creative space 🚀</p>
+      <a href="#about" class="btn">Explore More</a>
+    </div>
   </header>
 
   <nav>
@@ -131,5 +58,7 @@
   <footer>
     <p>© 2025 My Creative Website | Built with ❤️ and GitHub Pages</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
