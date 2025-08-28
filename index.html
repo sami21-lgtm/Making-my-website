@@ -1,51 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My Making Website</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body { 
-            font-family: Arial, sans-serif; 
-            background: #f4f4f4; 
-            margin: 0; 
-            padding: 0;
-        }
-        header {
-            background: #0077cc;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        main {
-            padding: 40px 20px;
-            max-width: 700px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-        }
-        footer {
-            background: #222;
-            color: #eee;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Creative Website</title>
+  <style>
+    /* Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #2575fc;
+    }
+
+    section {
+      padding: 3rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about, .projects, .contact {
+      margin-bottom: 3rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Making Website</h1>
-    </header>
-    <main>
-        <h2>Hello, world!</h2>
-        <p>This is your first website. You can edit this content and add more pages as you learn.</p>
-    </main>
-    <footer>
-        &copy; 2025 My Making Website
-    </footer>
+  <header>
+    <h1>Hi, I'm [Your Name]</h1>
+    <p>Welcome to my creative space 🚀</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <h2>👋 About Me</h2>
+    <p>Hello! I'm a passionate learner who loves building creative projects with code.  
+       This is my personal website hosted on GitHub Pages!</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>💻 Projects</h2>
+    <div class="projects-grid">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>A cool project I worked on. You can describe it here.</p>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>Another creative project with awesome features.</p>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Something exciting that I built and want to share.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>📬 Contact Me</h2>
+    <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+    <p>Find me on <a href="https://github.com/your-username" target="_blank">GitHub</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 My Creative Website | Built with ❤️ and GitHub Pages</p>
+  </footer>
 </body>
 </html>
