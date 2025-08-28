@@ -1,65 +1,12 @@
-/* Hero section with background */
-header {
-  position: relative;
-  height: 100vh;
-  background: url("myphoto.jpg") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  overflow: hidden;
-}
-
-/* Dark overlay for readability */
-header .overlay {
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background: rgba(0,0,0,0.5);
-  z-index: 1;
-}
-
-/* Text and content */
-.header-content {
-  position: relative;
-  z-index: 2;
-  animation: fadeIn 2s ease-in-out;
-}
-
-.header-content h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
-}
-
-.header-content p {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
-}
-
-.btn {
-  display: inline-block;
-  background: white;
-  color: #2575fc;
-  padding: 10px 20px;
-  border-radius: 25px;
+/* Typing text style */
+#typing {
+  font-size: 1.3rem;
   font-weight: bold;
-  text-decoration: none;
-  transition: 0.3s;
+  color: #ffcc00;
+  border-right: 2px solid white;
+  padding-right: 5px;
+  white-space: nowrap;
 }
 
-.btn:hover {
-  background: #222;
-  color: white;
-}
 
-/* Optional profile picture inside hero */
-.profile-pic {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 4px solid white;
-  margin-bottom: 1rem;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
 
