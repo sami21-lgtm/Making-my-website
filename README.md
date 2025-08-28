@@ -22,3 +22,4 @@ If you’d like to run this site locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/username.github.io
+![Alt text])
