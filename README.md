@@ -1,25 +1,35 @@
-# 🌐 My Personal Website
+<h1 align="center">Md. Emtiaz Hossain Sami 🚀</h1>
 
-Welcome to my website! This project is hosted using **GitHub Pages** and contains my personal site where I share my work, projects, and ideas.
+<p align="center">
+  <img src="assets/images/profile.jpg" alt="Md. Emtiaz Hossain Sami" width="160" style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
+</p>
 
----
-
-## 🔗 Live Site
-👉 [Visit My Website](https://username.github.io)
-
----
-
-## 📂 Project Structure
-- `index.html` → Homepage  
-- `style.css` → Stylesheet for design  
-- `script.js` → JavaScript (optional, for interactivity)  
+<p align="center">
+  <strong>Creative Developer | Visual Designer | Code Perfectionist</strong><br>
+  Welcome to my personal portfolio website! This site showcases my skills, projects, and contact information in a sleek, modern, and fully responsive design.
+</p>
 
 ---
 
-## 🚀 Getting Started
-If you’d like to run this site locally:  
+## 🚀 Features
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/username.github.io
-![Alt text])(https://github.com/sami21-lgtm/Making-my-website/blob/6138788ad3a6ab1bb5c0ace53a926a924288c3b8/488706646_663732826570375_6389922235458075308_n.jpg)
+- 🧭 Sidebar navigation  
+- 🎬 Hero section with animated intro  
+- 📄 About, Skills, Portfolio, and Contact sections  
+- 📱 Fully responsive (mobile & desktop)  
+- 🛠️ Easy to customize and extend  
+
+---
+
+#
+---
+
+## 🛠️ Getting Started
+
+```bash
+git clone https://github.com/sami21-lgtm/Making-my-website.git
+📫 Contact Me
+
+📧 Email: samiemtiaz38@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/emtiaz-hossain-6b4416340/
+*Built with 💻 by Md. Emtiaz Hossain Sami*
